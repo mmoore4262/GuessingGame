@@ -1,15 +1,21 @@
-package GuessingGame;
+
 public class Objective_1 {
-    public static void userGuess(int guess)
+    public static int generateRandomInt()
     {
-        int correct=10;
-        if (correct==guess)
+        return((int)(Math.random()*100));
+    }
+
+    public static boolean userGuess(int guess, int correctAnswer)
+    {
+
+        if (correctAnswer==guess)
         {
-            System.out.println("Your Guess "+correct+" was correct");
+            return(true);
         }
         else
         {
-            System.out.println("Try again. Your guess was not correct.");
+           return(false);
         }
     }
+
 }

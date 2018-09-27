@@ -1,5 +1,5 @@
 public class Objective_2 {
-    public static void (String[] args)
+    public static void aiGuess(String[] args)
     {
 
     }
