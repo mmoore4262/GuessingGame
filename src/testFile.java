@@ -15,7 +15,7 @@ public class testFile
         int guess=input.nextInt();
         while (gameIsInPlay==true)
         {
-            if (Objective_1.userGuess(guess,stor1)==true)
+            if (Objective_1.userGuess(guess, stor1))
             {
                 System.out.println("Your Guess "+guess+" is correct");
                 input.close();
